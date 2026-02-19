@@ -1,0 +1,492 @@
+[
+  {
+    "alert_id": "ALT-2026-001",
+    "alert_type": "Rapid Funds Movement",
+    "customer_id": "CUST-45891",
+    "customer_name": "Rajesh Kumar",
+    "account_number": "ACC-789456123",
+    "alert_date": "2026-02-08",
+    "transaction_summary": {
+      "total_amount_received": 5000000,
+      "currency": "INR",
+      "number_of_senders": 47,
+      "timeframe_days": 7,
+      "immediate_outbound_transfer": true,
+      "outbound_amount": 4950000,
+      "outbound_destination": "Foreign Account - UAE",
+      "outbound_swift": "DEUTDEFF",
+      "transaction_pattern": "Multiple small credits followed by immediate large debit"
+    },
+    "customer_profile": {
+      "occupation": "Small Business Owner",
+      "declared_annual_income": 800000,
+      "account_age_months": 24,
+      "previous_alerts": 0,
+      "kyc_last_updated": "2025-08-15",
+      "average_monthly_balance": 150000
+    },
+    "risk_indicators": [
+      {
+        "indicator": "Volume Inconsistent with Profile",
+        "severity": "HIGH",
+        "description": "Transaction volume 6.25x annual income"
+      },
+      {
+        "indicator": "Structuring Pattern",
+        "severity": "HIGH",
+        "description": "47 discrete transfers from unrelated parties"
+      },
+      {
+        "indicator": "Rapid Movement",
+        "severity": "MEDIUM",
+        "description": "Funds moved out within 24 hours"
+      },
+      {
+        "indicator": "Cross-Border Risk",
+        "severity": "MEDIUM",
+        "description": "Transfer to high-risk jurisdiction (UAE)"
+      }
+    ],
+    "typology_match": "Trade-Based Money Laundering",
+    "fatf_guideline_ref": "FATF Recommendation 10, 16"
+  },
+  {
+    "alert_id": "ALT-2026-002",
+    "alert_type": "Smurfing/Structuring",
+    "customer_id": "CUST-78234",
+    "customer_name": "Priya Sharma",
+    "account_number": "ACC-456789012",
+    "alert_date": "2026-02-09",
+    "transaction_summary": {
+      "total_amount_deposited": 2500000,
+      "currency": "INR",
+      "number_of_deposits": 125,
+      "deposit_pattern": "All deposits below ₹20,000 (just under CTR threshold)",
+      "timeframe_days": 30,
+      "immediate_withdrawal": false,
+      "deposit_locations": "Multiple branches and ATMs",
+      "average_deposit": 20000
+    },
+    "customer_profile": {
+      "occupation": "Homemaker",
+      "declared_annual_income": 0,
+      "account_age_months": 6,
+      "previous_alerts": 1,
+      "kyc_last_updated": "2025-11-20",
+      "average_monthly_balance": 50000
+    },
+    "risk_indicators": [
+      {
+        "indicator": "Structured Deposits",
+        "severity": "HIGH",
+        "description": "125 deposits all just below ₹20,000 reporting threshold"
+      },
+      {
+        "indicator": "Profile Mismatch",
+        "severity": "HIGH",
+        "description": "Homemaker with zero income receiving ₹25L in cash"
+      },
+      {
+        "indicator": "New Account",
+        "severity": "MEDIUM",
+        "description": "Account opened only 6 months ago"
+      },
+      {
+        "indicator": "Geographic Spread",
+        "severity": "MEDIUM",
+        "description": "Deposits made at multiple locations to avoid detection"
+      }
+    ],
+    "typology_match": "Smurfing/Structuring to Avoid CTR",
+    "fatf_guideline_ref": "FATF Recommendation 10"
+  },
+  {
+    "alert_id": "ALT-2026-003",
+    "alert_type": "Round-Tripping",
+    "customer_id": "CUST-92145",
+    "customer_name": "Amit Patel",
+    "account_number": "ACC-234567890",
+    "alert_date": "2026-02-07",
+    "transaction_summary": {
+      "total_amount": 10000000,
+      "currency": "INR",
+      "pattern": "Wire out to foreign entity, wire back in same amount minus small fee",
+      "timeframe_days": 14,
+      "jurisdictions_involved": ["Singapore", "Hong Kong", "India"],
+      "outbound_amount": 10000000,
+      "inbound_amount": 9850000,
+      "purpose_stated": "Import/Export payment"
+    },
+    "customer_profile": {
+      "occupation": "Import/Export Business",
+      "declared_annual_income": 3000000,
+      "account_age_months": 48,
+      "previous_alerts": 2,
+      "kyc_last_updated": "2024-12-10",
+      "business_vintage": "15 years"
+    },
+    "risk_indicators": [
+      {
+        "indicator": "Circular Transactions",
+        "severity": "HIGH",
+        "description": "Funds sent out and returned with no economic purpose"
+      },
+      {
+        "indicator": "Multiple Jurisdictions",
+        "severity": "MEDIUM",
+        "description": "Routed through 3 countries unnecessarily"
+      },
+      {
+        "indicator": "Layering Technique",
+        "severity": "HIGH",
+        "description": "Complex movement to obscure origin of funds"
+      },
+      {
+        "indicator": "Inconsistent Business Activity",
+        "severity": "MEDIUM",
+        "description": "No corresponding import/export documentation"
+      }
+    ],
+    "typology_match": "Round-Tripping for Tax Evasion/Layering",
+    "fatf_guideline_ref": "FATF Recommendation 10, 16"
+  },
+  {
+    "alert_id": "ALT-2026-004",
+    "alert_type": "Cash-Intensive Business Anomaly",
+    "customer_id": "CUST-56712",
+    "customer_name": "Restaurant Delights Pvt Ltd",
+    "account_number": "ACC-345678901",
+    "alert_date": "2026-02-06",
+    "transaction_summary": {
+      "cash_deposits_monthly": 3500000,
+      "currency": "INR",
+      "average_ticket_size": 500,
+      "reported_sales": 2000000,
+      "timeframe_days": 30,
+      "deposit_frequency": "Daily",
+      "discrepancy": "Cash deposits 75% higher than reported sales"
+    },
+    "customer_profile": {
+      "occupation": "Restaurant Owner",
+      "declared_annual_income": 2400000,
+      "account_age_months": 36,
+      "previous_alerts": 0,
+      "kyc_last_updated": "2025-06-20",
+      "business_type": "Food Service"
+    },
+    "risk_indicators": [
+      {
+        "indicator": "Revenue Mismatch",
+        "severity": "HIGH",
+        "description": "Cash deposits significantly exceed reported sales"
+      },
+      {
+        "indicator": "Unexplained Cash Source",
+        "severity": "HIGH",
+        "description": "No credible explanation for excess cash"
+      },
+      {
+        "indicator": "Possible Layering",
+        "severity": "MEDIUM",
+        "description": "May be mixing illicit funds with legitimate business receipts"
+      }
+    ],
+    "typology_match": "Cash-Intensive Business Laundering",
+    "fatf_guideline_ref": "FATF Recommendation 10, PMLA Section 12"
+  },
+  {
+    "alert_id": "ALT-2026-005",
+    "alert_type": "Funnel Account",
+    "customer_id": "CUST-12389",
+    "customer_name": "Suresh Mehta",
+    "account_number": "ACC-567890123",
+    "alert_date": "2026-02-05",
+    "transaction_summary": {
+      "total_credits": 8000000,
+      "currency": "INR",
+      "number_of_creditors": 89,
+      "timeframe_days": 15,
+      "single_debit_amount": 7900000,
+      "debit_destination": "Single beneficiary - Shell Company Ltd",
+      "pattern": "Many small credits, one large consolidated debit"
+    },
+    "customer_profile": {
+      "occupation": "Unemployed",
+      "declared_annual_income": 0,
+      "account_age_months": 8,
+      "previous_alerts": 0,
+      "kyc_last_updated": "2025-10-15",
+      "employment_status": "None reported"
+    },
+    "risk_indicators": [
+      {
+        "indicator": "Funnel Account Pattern",
+        "severity": "HIGH",
+        "description": "89 credits from different sources, consolidated to single destination"
+      },
+      {
+        "indicator": "Profile Inconsistency",
+        "severity": "HIGH",
+        "description": "Unemployed individual handling ₹80L transactions"
+      },
+      {
+        "indicator": "Shell Company Destination",
+        "severity": "HIGH",
+        "description": "Beneficiary has no physical presence or employees"
+      },
+      {
+        "indicator": "Account Purpose Unclear",
+        "severity": "MEDIUM",
+        "description": "No legitimate business or personal justification"
+      }
+    ],
+    "typology_match": "Funnel Account for Collection",
+    "fatf_guideline_ref": "FATF Recommendation 10"
+  },
+  {
+    "alert_id": "ALT-2026-006",
+    "alert_type": "PEP High-Risk Transaction",
+    "customer_id": "CUST-34567",
+    "customer_name": "Vikram Singh",
+    "account_number": "ACC-678901234",
+    "alert_date": "2026-02-04",
+    "transaction_summary": {
+      "total_amount": 15000000,
+      "currency": "INR",
+      "source": "Unknown foreign entities",
+      "timeframe_days": 3,
+      "number_of_transfers": 5,
+      "source_countries": ["Cyprus", "British Virgin Islands", "Panama"],
+      "stated_purpose": "Gift from relatives"
+    },
+    "customer_profile": {
+      "occupation": "Senior Government Official",
+      "declared_annual_income": 1800000,
+      "account_age_months": 60,
+      "previous_alerts": 0,
+      "kyc_last_updated": "2025-03-10",
+      "pep_status": "Politically Exposed Person (Domestic)"
+    },
+    "risk_indicators": [
+      {
+        "indicator": "PEP High-Value Transaction",
+        "severity": "HIGH",
+        "description": "Large unexplained funds received by government official"
+      },
+      {
+        "indicator": "Offshore Jurisdictions",
+        "severity": "HIGH",
+        "description": "Funds from tax havens and high-risk territories"
+      },
+      {
+        "indicator": "Disproportionate to Income",
+        "severity": "HIGH",
+        "description": "Amount is 8.3x annual declared income"
+      },
+      {
+        "indicator": "Enhanced Due Diligence Required",
+        "severity": "MEDIUM",
+        "description": "PEP status mandates additional scrutiny per RBI guidelines"
+      }
+    ],
+    "typology_match": "PEP Corruption/Bribery Proceeds",
+    "fatf_guideline_ref": "FATF Recommendation 12, 22"
+  },
+  {
+    "alert_id": "ALT-2026-007",
+    "alert_type": "Cryptocurrency Conversion",
+    "customer_id": "CUST-89123",
+    "customer_name": "Arjun Verma",
+    "account_number": "ACC-789012345",
+    "alert_date": "2026-02-03",
+    "transaction_summary": {
+      "total_fiat_deposits": 5500000,
+      "currency": "INR",
+      "source": "Multiple peer-to-peer transfers",
+      "immediate_withdrawal": true,
+      "withdrawal_method": "International wire to crypto exchange",
+      "timeframe_days": 5,
+      "pattern": "Fiat in, immediate crypto purchase wire out"
+    },
+    "customer_profile": {
+      "occupation": "IT Consultant",
+      "declared_annual_income": 1200000,
+      "account_age_months": 18,
+      "previous_alerts": 1,
+      "kyc_last_updated": "2025-07-20",
+      "stated_investment_interest": "Cryptocurrency trading"
+    },
+    "risk_indicators": [
+      {
+        "indicator": "Crypto Conversion Pattern",
+        "severity": "HIGH",
+        "description": "Rapid conversion of cash to cryptocurrency"
+      },
+      {
+        "indicator": "Volume Exceeds Income",
+        "severity": "HIGH",
+        "description": "Transaction volume 4.6x annual income"
+      },
+      {
+        "indicator": "Source Obfuscation",
+        "severity": "MEDIUM",
+        "description": "Funds from multiple unrelated P2P sources"
+      },
+      {
+        "indicator": "Potential Tax Evasion",
+        "severity": "MEDIUM",
+        "description": "May be avoiding capital gains reporting"
+      }
+    ],
+    "typology_match": "Cryptocurrency Laundering",
+    "fatf_guideline_ref": "FATF Recommendation 15 (Virtual Assets)"
+  },
+  {
+    "alert_id": "ALT-2026-008",
+    "alert_type": "Shell Company Transaction",
+    "customer_id": "CUST-67890",
+    "customer_name": "Apex Traders International Ltd",
+    "account_number": "ACC-890123456",
+    "alert_date": "2026-02-02",
+    "transaction_summary": {
+      "total_transactions": 12000000,
+      "currency": "INR",
+      "number_of_counterparties": 3,
+      "timeframe_days": 20,
+      "business_description": "Import/Export of machinery",
+      "physical_goods_evidence": "None",
+      "invoice_verification": "Suspicious - prices significantly above market"
+    },
+    "customer_profile": {
+      "occupation": "Trading Company",
+      "declared_annual_income": 5000000,
+      "account_age_months": 12,
+      "previous_alerts": 0,
+      "kyc_last_updated": "2025-09-15",
+      "employees": "0 (Registered address is virtual office)",
+      "business_operations": "No physical presence or operations"
+    },
+    "risk_indicators": [
+      {
+        "indicator": "Shell Company Characteristics",
+        "severity": "HIGH",
+        "description": "No employees, no physical office, no real operations"
+      },
+      {
+        "indicator": "Trade-Based Money Laundering",
+        "severity": "HIGH",
+        "description": "Over-invoicing suspected - prices 300% above market"
+      },
+      {
+        "indicator": "Complex Ownership",
+        "severity": "MEDIUM",
+        "description": "Beneficial ownership unclear, multiple layers"
+      },
+      {
+        "indicator": "Limited Counterparties",
+        "severity": "MEDIUM",
+        "description": "Only transacts with 3 entities repeatedly"
+      }
+    ],
+    "typology_match": "Shell Company / Trade-Based ML",
+    "fatf_guideline_ref": "FATF Recommendation 10, 24"
+  },
+  {
+    "alert_id": "ALT-2026-009",
+    "alert_type": "Gambling/Casino Layering",
+    "customer_id": "CUST-23456",
+    "customer_name": "Karan Malhotra",
+    "account_number": "ACC-901234567",
+    "alert_date": "2026-02-01",
+    "transaction_summary": {
+      "casino_deposits": 4000000,
+      "currency": "INR",
+      "casino_withdrawals": 3950000,
+      "net_gambling_loss": 50000,
+      "timeframe_days": 10,
+      "pattern": "Large deposits, minimal gambling, immediate withdrawal",
+      "casino_location": "Goa"
+    },
+    "customer_profile": {
+      "occupation": "Real Estate Agent",
+      "declared_annual_income": 1500000,
+      "account_age_months": 24,
+      "previous_alerts": 0,
+      "kyc_last_updated": "2025-05-10",
+      "gambling_history": "First time casino transactions"
+    },
+    "risk_indicators": [
+      {
+        "indicator": "Casino Layering",
+        "severity": "HIGH",
+        "description": "Using casino to legitimize large cash amounts"
+      },
+      {
+        "indicator": "Minimal Actual Gambling",
+        "severity": "HIGH",
+        "description": "99% of deposited funds withdrawn, only 1.25% wagered"
+      },
+      {
+        "indicator": "Disproportionate Amount",
+        "severity": "MEDIUM",
+        "description": "Casino activity 2.7x annual income"
+      },
+      {
+        "indicator": "Pattern Recognition",
+        "severity": "MEDIUM",
+        "description": "Classic layering technique via gambling establishments"
+      }
+    ],
+    "typology_match": "Casino/Gambling Layering",
+    "fatf_guideline_ref": "FATF Recommendation 10, Special Rec on Casinos"
+  },
+  {
+    "alert_id": "ALT-2026-010",
+    "alert_type": "Loan Back Scheme",
+    "customer_id": "CUST-45678",
+    "customer_name": "Deepak Gupta",
+    "account_number": "ACC-012345678",
+    "alert_date": "2026-01-31",
+    "transaction_summary": {
+      "loan_amount_disbursed": 6000000,
+      "currency": "INR",
+      "loan_source": "Foreign entity - related party",
+      "repayment_source": "Same foreign entity via different route",
+      "timeframe_days": 60,
+      "interest_rate": "0% (interest-free loan)",
+      "pattern": "Circular flow - loan and repayment from same ultimate source"
+    },
+    "customer_profile": {
+      "occupation": "Business Owner",
+      "declared_annual_income": 2500000,
+      "account_age_months": 48,
+      "previous_alerts": 1,
+      "kyc_last_updated": "2024-11-20",
+      "foreign_connections": "Multiple offshore entities"
+    },
+    "risk_indicators": [
+      {
+        "indicator": "Loan-Back Scheme",
+        "severity": "HIGH",
+        "description": "Circular transaction pattern to repatriate illicit funds"
+      },
+      {
+        "indicator": "Related Party Transaction",
+        "severity": "HIGH",
+        "description": "Loan and repayment from related entities"
+      },
+      {
+        "indicator": "Zero Interest Loan",
+        "severity": "MEDIUM",
+        "description": "No commercial rationale for interest-free ₹60L loan"
+      },
+      {
+        "indicator": "Tax Evasion Indicator",
+        "severity": "MEDIUM",
+        "description": "Possible scheme to avoid tax on offshore income"
+      }
+    ],
+    "typology_match": "Loan-Back / Circular Transaction",
+    "fatf_guideline_ref": "FATF Recommendation 10, 16"
+  }
+]

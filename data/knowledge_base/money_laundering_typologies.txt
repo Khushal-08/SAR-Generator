@@ -1,0 +1,356 @@
+MONEY LAUNDERING TYPOLOGIES - REFERENCE GUIDE FOR SAR ANALYSIS
+═══════════════════════════════════════════════════════════════════════
+
+This document provides detailed descriptions of common money laundering 
+typologies for use in Suspicious Activity Report (SAR) narrative generation.
+
+───────────────────────────────────────────────────────────────────────────
+1. STRUCTURING / SMURFING
+───────────────────────────────────────────────────────────────────────────
+DEFINITION:
+Breaking large transactions into multiple smaller amounts to avoid mandatory 
+reporting thresholds (CTR threshold in India: ₹10 lakhs for cash transactions).
+
+TYPICAL PATTERNS:
+• Multiple deposits/withdrawals just below ₹20,000 (cash transaction reporting limit)
+• Consistent small amounts across multiple days
+• Use of multiple individuals ("smurfs") to make deposits
+• Geographic spread across different branches/ATMs to avoid detection
+• Timing pattern designed to evade automated monitoring
+
+RED FLAGS:
+⚠ Deposits consistently below reporting thresholds (e.g., ₹19,500, ₹19,800)
+⚠ Multiple transactions in same day at different locations
+⚠ No credible explanation for cash source
+⚠ Pattern emerges over weeks/months
+⚠ Customer has no business justifying cash handling
+
+REGULATORY FRAMEWORK:
+• PMLA Section 12 - Obligation to report suspicious transactions
+• Rule 3 of PMLA Rules - Cash Transaction Report (CTR) requirements
+• FATF Recommendation 10 - Customer due diligence
+• RBI Master Direction on KYC - Enhanced monitoring requirements
+
+NARRATIVE LANGUAGE:
+"The transaction pattern exhibits characteristics consistent with structuring, 
+wherein multiple deposits were made in amounts deliberately designed to avoid 
+triggering cash transaction reporting requirements under PMLA Rule 3."
+
+───────────────────────────────────────────────────────────────────────────
+2. RAPID FUNDS MOVEMENT / LAYERING
+───────────────────────────────────────────────────────────────────────────
+DEFINITION:
+Quick movement of funds through accounts with no economic purpose, designed 
+to distance money from its illicit source and complicate audit trails.
+
+TYPICAL PATTERNS:
+• Funds received and immediately transferred out (same day or within 24 hours)
+• No accumulation of balance in the account
+• Multiple rapid transfers through different accounts
+• Use of intermediary accounts to create complexity
+• Cross-border transfers to increase distance from source
+
+RED FLAGS:
+⚠ Credits followed immediately by debits of similar amounts
+⚠ No legitimate business purpose for transactions
+⚠ Account used as mere conduit or "pass-through"
+⚠ Minimal balance retention
+⚠ Pattern of in-and-out transactions
+
+REGULATORY FRAMEWORK:
+• FATF Recommendation 10 - Customer due diligence and monitoring
+• FATF Recommendation 16 - Wire transfers
+• PMLA Section 12 - Suspicious transaction reporting
+
+NARRATIVE LANGUAGE:
+"The account exhibited rapid funds movement characteristic of layering, wherein 
+credits were systematically followed by immediate debits with no accumulation 
+of funds or apparent economic purpose, suggesting an attempt to distance the 
+funds from their source and complicate transaction tracing."
+
+───────────────────────────────────────────────────────────────────────────
+3. TRADE-BASED MONEY LAUNDERING (TBML)
+───────────────────────────────────────────────────────────────────────────
+DEFINITION:
+Misuse of trade transactions to disguise illicit funds, typically through 
+manipulation of price, quantity, or quality of imports/exports.
+
+TYPICAL PATTERNS:
+• Over-invoicing or under-invoicing of goods
+• Multiple payments from unrelated parties for single trade
+• Shipment of goods at prices significantly above/below market value
+• Phantom shipping (no actual goods movement)
+• Over/under-shipment of goods relative to invoice
+• Falsified documents or descriptions
+
+RED FLAGS:
+⚠ Transaction volume inconsistent with business size
+⚠ Payments from multiple third parties for single transaction
+⚠ Immediate cross-border transfers following receipts
+⚠ Invoice prices 2-3x market value
+⚠ No supporting documentation (bills of lading, customs clearance)
+⚠ Customer has no history in stated trade
+
+REGULATORY FRAMEWORK:
+• FATF Recommendation 10 - Customer due diligence
+• FATF Recommendation 16 - Wire transfers
+• FATF Best Practices on TBML (2008, updated 2020)
+• Indian Customs Act provisions on valuation
+
+NARRATIVE LANGUAGE:
+"The transaction pattern is indicative of trade-based money laundering, wherein 
+the customer received multiple payments from unrelated third parties followed by 
+immediate cross-border transfers, with invoice valuations significantly exceeding 
+market prices for the stated goods, and lacking credible documentation to support 
+the legitimacy of the trade activity."
+
+───────────────────────────────────────────────────────────────────────────
+4. ROUND-TRIPPING
+───────────────────────────────────────────────────────────────────────────
+DEFINITION:
+Transferring funds to foreign jurisdictions and then routing them back to the 
+country of origin through multiple channels to disguise their source and 
+appear as foreign investment or legitimate foreign income.
+
+TYPICAL PATTERNS:
+• Wire transfer to offshore entity
+• Funds return through different route (different entity, different account)
+• Multiple jurisdictions involved to add complexity
+• Same ultimate beneficial owner on both sides
+• Returns may be disguised as loans, investments, or gifts
+
+RED FLAGS:
+⚠ Circular flow of funds
+⚠ Use of tax havens or secrecy jurisdictions
+⚠ Related party transactions disguised as arm's length
+⚠ No commercial rationale for routing
+⚠ Returns within short timeframe
+
+REGULATORY FRAMEWORK:
+• FATF Recommendation 10, 16 - Customer due diligence and wire transfers
+• FEMA regulations on capital account transactions
+• Income Tax Act provisions on deemed income
+• PMLA Section 12
+
+NARRATIVE LANGUAGE:
+"The transactions exhibit a round-tripping pattern wherein funds were transferred 
+to offshore entities in jurisdictions known for banking secrecy, and subsequently 
+returned to India through circuitous routes involving multiple intermediaries, 
+with no demonstrable commercial purpose for such complex structuring, suggesting 
+an attempt to disguise the domestic origin of funds and potentially evade 
+taxation or regulatory oversight."
+
+───────────────────────────────────────────────────────────────────────────
+5. CASH-INTENSIVE BUSINESS LAUNDERING
+───────────────────────────────────────────────────────────────────────────
+DEFINITION:
+Mixing illicit funds with legitimate cash-intensive business receipts to 
+disguise the source of criminal proceeds.
+
+TYPICAL PATTERNS:
+• Cash deposits significantly exceeding reported sales
+• Business type allows for revenue inflation (restaurants, retail, services)
+• Deposits inconsistent with business size, location, or customer traffic
+• No corresponding increase in expenses, inventory, or employees
+• Minimal card/digital transactions despite modern payment trends
+
+RED FLAGS:
+⚠ Cash deposits 50-200% above reported revenues
+⚠ No credible explanation for excess cash
+⚠ Deposits made at unusual times or frequencies
+⚠ Business has minimal physical presence or operations
+⚠ Revenue inconsistent with observable business activity
+
+REGULATORY FRAMEWORK:
+• PMLA Section 12 - Suspicious transaction reporting
+• FATF Recommendation 10 - Customer due diligence
+• Income Tax Act Section 269ST - Cash transaction limits
+• RBI guidelines on cash handling
+
+NARRATIVE LANGUAGE:
+"The cash deposit pattern indicates potential laundering through a cash-intensive 
+business, wherein deposits substantially exceed the declared sales revenue without 
+corresponding increases in operational indicators, suggesting the commingling of 
+illicit funds with legitimate business receipts to create an appearance of 
+lawful origin."
+
+───────────────────────────────────────────────────────────────────────────
+6. FUNNEL ACCOUNT / COLLECTION ACCOUNT
+───────────────────────────────────────────────────────────────────────────
+DEFINITION:
+An account that receives funds from multiple sources and consolidates them 
+for transfer to a single destination, often with no legitimate purpose.
+
+TYPICAL PATTERNS:
+• Multiple small credits from many different individuals/entities
+• Single large debit consolidating all credits
+• Account holder has no business justifying such activity
+• Credits from geographically dispersed sources
+• Consistent pattern repeated regularly
+
+RED FLAGS:
+⚠ 50+ individual creditors to single account
+⚠ Account holder is unemployed or has inconsistent profile
+⚠ Funds transferred to shell companies or offshore entities
+⚠ No legitimate business or family reason for collections
+⚠ Account opened recently before activity began
+
+REGULATORY FRAMEWORK:
+• FATF Recommendation 10 - Customer due diligence
+• PMLA Section 12 - Suspicious transaction reporting
+• RBI KYC guidelines on purpose of account
+
+NARRATIVE LANGUAGE:
+"The account exhibits characteristics of a funnel account, receiving funds from 
+89 disparate sources and systematically consolidating them for transfer to a 
+single beneficiary, with the account holder's profile providing no legitimate 
+explanation for such collection and disbursement activity, suggesting potential 
+use as an intermediary in a larger money laundering scheme."
+
+───────────────────────────────────────────────────────────────────────────
+7. SHELL COMPANY TRANSACTIONS
+───────────────────────────────────────────────────────────────────────────
+DEFINITION:
+Use of companies with no genuine business operations to move or store funds, 
+disguising true ownership and purpose.
+
+TYPICAL PATTERNS:
+• Company has no employees or physical presence
+• Registered address is virtual office or accommodation address
+• No evidence of actual business operations
+• Complex ownership structures obscuring beneficial owner
+• Transactions inconsistent with stated business purpose
+• Often combined with TBML or other typologies
+
+RED FLAGS:
+⚠ Zero employees despite large transaction volumes
+⚠ No utility bills, rent payments, or operational expenses
+⚠ Directors are nominees or foreign entities
+⚠ Recently incorporated but immediately active with large transactions
+⚠ Transactions only with related entities
+
+REGULATORY FRAMEWORK:
+• FATF Recommendation 24, 25 - Beneficial ownership transparency
+• Companies Act 2013 provisions on beneficial ownership
+• PMLA Rules on beneficial ownership identification
+• SEBI regulations on shell companies
+
+NARRATIVE LANGUAGE:
+"The entity exhibits shell company characteristics, including absence of 
+employees, lack of physical operations, use of virtual office addresses, and 
+transaction patterns inconsistent with the stated business purpose, combined 
+with opaque ownership structures that obscure beneficial ownership, indicating 
+potential use as a vehicle for money laundering rather than legitimate 
+commercial activity."
+
+───────────────────────────────────────────────────────────────────────────
+8. POLITICALLY EXPOSED PERSONS (PEP) CORRUPTION PROCEEDS
+───────────────────────────────────────────────────────────────────────────
+DEFINITION:
+Suspicious transactions involving government officials or their family members 
+that may represent proceeds of corruption, bribery, or abuse of public office.
+
+TYPICAL PATTERNS:
+• Large unexplained deposits to government official's account
+• Receipts from unknown foreign sources
+• Amounts grossly disproportionate to official salary
+• Use of family members' accounts to disguise beneficial ownership
+• Transfers from entities benefiting from government contracts
+
+RED FLAGS:
+⚠ PEP receiving funds 5-10x annual salary
+⚠ Offshore transfers to/from tax havens
+⚠ Timing correlates with government contract awards
+⚠ Use of intermediaries to distance PEP from transaction
+⚠ Stated purpose (gifts, family support) not credible given amounts
+
+REGULATORY FRAMEWORK:
+• FATF Recommendation 12, 22 - PEP due diligence
+• RBI Master Direction on KYC - Enhanced Due Diligence for PEPs
+• Prevention of Corruption Act
+• PMLA Section 12
+
+NARRATIVE LANGUAGE:
+"The account holder, identified as a Politically Exposed Person per RBI 
+guidelines, received substantial funds from foreign jurisdictions known for 
+banking secrecy, with amounts grossly disproportionate to declared income and 
+lacking credible justification, raising concerns regarding potential proceeds 
+of corruption or abuse of public office as contemplated under FATF 
+Recommendation 12 and requiring enhanced due diligence."
+
+───────────────────────────────────────────────────────────────────────────
+9. CRYPTOCURRENCY / VIRTUAL ASSET LAUNDERING
+───────────────────────────────────────────────────────────────────────────
+DEFINITION:
+Use of cryptocurrencies or virtual assets to transfer, obscure, or legitimize 
+illicit funds, often exploiting the pseudonymous nature of blockchain transactions.
+
+TYPICAL PATTERNS:
+• Rapid conversion of cash to cryptocurrency
+• Use of P2P platforms to avoid KYC
+• Transfers to foreign crypto exchanges
+• Mixing services or tumblers to obscure transaction trail
+• Conversion back to fiat through different jurisdiction
+
+RED FLAGS:
+⚠ Large fiat deposits followed by immediate crypto exchange transfers
+⚠ P2P cryptocurrency transactions with multiple counterparties
+⚠ No investment justification given transaction volume
+⚠ Use of privacy coins (Monero, Zcash)
+⚠ Pattern suggests layering through crypto
+
+REGULATORY FRAMEWORK:
+• FATF Recommendation 15 - New Technologies and Virtual Assets
+• FATF Guidance on Virtual Assets and Virtual Asset Service Providers (2021)
+• RBI regulations on cryptocurrency (evolving)
+• PMLA applicability to virtual asset transactions
+
+NARRATIVE LANGUAGE:
+"The transaction pattern indicates potential use of virtual assets for money 
+laundering purposes, with rapid conversion of fiat currency to cryptocurrency 
+through international exchanges, followed by complex transaction chains designed 
+to obscure the audit trail, in a manner consistent with FATF's identification 
+of virtual asset risks in its Recommendation 15 guidance."
+
+───────────────────────────────────────────────────────────────────────────
+10. GAMBLING / CASINO LAYERING
+───────────────────────────────────────────────────────────────────────────
+DEFINITION:
+Using gambling establishments to legitimize illicit funds by creating an 
+appearance that winnings are the source of wealth.
+
+TYPICAL PATTERNS:
+• Large casino chip purchases with minimal actual gambling
+• Quick conversion of chips back to cash or cheque
+• Negligible net gambling loss (98-99% of funds returned)
+• Multiple visits with same pattern
+• Declared source of wealth becomes "gambling winnings"
+
+RED FLAGS:
+⚠ Casino deposits followed by immediate withdrawals
+⚠ Less than 2-5% of funds actually wagered
+⚠ Pattern repeated across multiple visits
+⚠ Amounts inconsistent with customer profile
+⚠ First-time gambler with large amounts
+
+REGULATORY FRAMEWORK:
+• FATF Recommendation 22 (previously Special Recommendation) - Casinos
+• PMLA applicability to casinos
+• Casino KYC and reporting requirements
+• State gambling regulations
+
+NARRATIVE LANGUAGE:
+"The pattern of casino transactions indicates potential layering activity rather 
+than genuine gambling, with large cash conversions to chips followed by minimal 
+wagering and immediate redemption, resulting in negligible net loss while creating 
+an appearance of legitimate source through casino documentation, as identified in 
+FATF's casino-specific AML recommendations."
+
+═══════════════════════════════════════════════════════════════════════════
+END OF TYPOLOGIES REFERENCE GUIDE
+═══════════════════════════════════════════════════════════════════════════
+
+NOTE: This guide should be used in conjunction with current FATF recommendations,
+RBI Master Directions, and PMLA regulations when drafting SAR narratives.
+
+Last Updated: February 2026

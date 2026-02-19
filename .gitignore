@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+
+# Ollama
+.ollama/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+audit_logs/*.jsonl
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs
+outputs/*.pdf
+outputs/*.txt

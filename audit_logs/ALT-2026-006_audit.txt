@@ -1,0 +1,59 @@
+================================================================================
+AUDIT TRAIL REPORT - SUSPICIOUS ACTIVITY REPORT
+================================================================================
+
+Alert ID: ALT-2026-006
+Generated: 2026-02-13T20:39:23.829486
+
+DATA LINEAGE:
+--------------------------------------------------------------------------------
+  primary_alert: ALT-2026-006
+  customer_kyc: KYC last updated: 2025-03-10
+  transaction_data: Date: 2026-02-04
+  knowledge_base: ['money_laundering_typologies.txt', 'pmla_guidelines.txt']
+
+
+DECISION TRAIL:
+--------------------------------------------------------------------------------
+
+1. PEP High-Value Transaction
+   Why Flagged: Large unexplained funds received by government official
+   Data Source: transaction_summary
+   Rule Applied: HIGH_RISK_THRESHOLD
+   Confidence: HIGH
+
+2. Offshore Jurisdictions
+   Why Flagged: Funds from tax havens and high-risk territories
+   Data Source: transaction_summary
+   Rule Applied: HIGH_RISK_THRESHOLD
+   Confidence: HIGH
+
+3. Disproportionate to Income
+   Why Flagged: Amount is 8.3x annual declared income
+   Data Source: transaction_summary
+   Rule Applied: HIGH_RISK_THRESHOLD
+   Confidence: HIGH
+
+4. Enhanced Due Diligence Required
+   Why Flagged: PEP status mandates additional scrutiny per RBI guidelines
+   Data Source: transaction_summary
+   Rule Applied: MEDIUM_RISK_THRESHOLD
+   Confidence: MEDIUM
+
+5. Typology Classification
+   Why Flagged: Matched: PEP Corruption/Bribery Proceeds
+   Data Source: knowledge_base/money_laundering_typologies.txt
+   Rule Applied: PATTERN_MATCHING_ALGORITHM
+   Confidence: HIGH
+
+
+INTEGRITY VERIFICATION:
+--------------------------------------------------------------------------------
+Status: VERIFIED
+Input Hash: f9aaa4d14ba2918252193c590648a86d...
+Output Hash: 4e7ade8c8de36535d3d52e2cbdde6e41...
+Timestamp: 2026-02-13T20:39:23.829486
+
+================================================================================
+END OF AUDIT TRAIL
+================================================================================

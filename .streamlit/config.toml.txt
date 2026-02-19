@@ -1,0 +1,9 @@
+[theme]
+primaryColor = "#1e3a8a"  # Navy blue for buttons
+backgroundColor = "#ffffff"  # White background
+secondaryBackgroundColor = "#f1f5f9"  # Light gray for cards
+textColor = "#1e293b"  # Dark slate for text
+font = "sans serif"
+
+[server]
+headless = true

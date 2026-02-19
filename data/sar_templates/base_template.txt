@@ -1,0 +1,95 @@
+SUSPICIOUS ACTIVITY REPORT
+═══════════════════════════════════════════════════════════════
+
+FINANCIAL INSTITUTION INFORMATION
+────────────────────────────────────────────────────────────────
+Institution Name: [BANK_NAME]
+Institution Address: [BANK_ADDRESS]
+Compliance Contact: [COMPLIANCE_CONTACT]
+Report Filing Date: [FILING_DATE]
+
+FILING INFORMATION
+────────────────────────────────────────────────────────────────
+SAR Report Number: [SAR_NUMBER]
+Report Type: Initial Filing
+Filing Institution: [BANK_NAME]
+Reporting Authority: Financial Intelligence Unit - India (FIU-IND)
+
+SUBJECT INFORMATION
+────────────────────────────────────────────────────────────────
+Customer Name: [CUSTOMER_NAME]
+Account Number: [ACCOUNT_NUMBER]
+Customer ID: [CUSTOMER_ID]
+Date of Birth: [DOB]
+Address: [CUSTOMER_ADDRESS]
+Occupation/Business: [OCCUPATION]
+Identification Type: [ID_TYPE]
+Identification Number: [ID_NUMBER]
+KYC Status: [KYC_STATUS]
+
+SUSPICIOUS ACTIVITY DETAILS
+────────────────────────────────────────────────────────────────
+Activity Period: [START_DATE] to [END_DATE]
+Total Amount Involved: [TOTAL_AMOUNT] [CURRENCY]
+Alert Type: [ALERT_TYPE]
+Date of Detection: [ALERT_DATE]
+
+NARRATIVE DESCRIPTION OF SUSPICIOUS ACTIVITY
+────────────────────────────────────────────────────────────────
+
+[AI_GENERATED_NARRATIVE]
+
+SUSPICION INDICATORS
+────────────────────────────────────────────────────────────────
+The following red flags were identified during transaction monitoring:
+
+[AI_GENERATED_INDICATORS]
+
+MONEY LAUNDERING TYPOLOGY ANALYSIS
+────────────────────────────────────────────────────────────────
+Suspected Typology: [TYPOLOGY_NAME]
+
+[TYPOLOGY_ANALYSIS]
+
+REGULATORY REFERENCES
+────────────────────────────────────────────────────────────────
+This suspicious activity is being reported pursuant to the following regulations:
+
+[REGULATORY_CITATIONS]
+
+RECOMMENDATION
+────────────────────────────────────────────────────────────────
+Based on the analysis of transaction patterns, customer profile, and applicable 
+regulatory guidelines, it is recommended that this matter be filed as a 
+Suspicious Activity Report pursuant to [LEGAL_REFERENCE].
+
+SUPPORTING DOCUMENTATION
+────────────────────────────────────────────────────────────────
+The following documents are attached to support this SAR filing:
+• Transaction logs and account statements
+• Customer KYC documentation and identification records
+• Previous alert history and investigation notes
+• Correspondence records (if applicable)
+• Enhanced due diligence documentation (if applicable)
+
+ANALYST CERTIFICATION
+────────────────────────────────────────────────────────────────
+Report Prepared By: AI-Assisted SAR Generator (System Version 1.0)
+Human Analyst Review: [COMPLIANCE_ANALYST_NAME]
+Review Date: [REVIEW_DATE]
+Approval Status: [APPROVAL_STATUS]
+Approval Date: [APPROVAL_DATE]
+
+CONFIDENTIALITY NOTICE
+────────────────────────────────────────────────────────────────
+This report contains confidential information and is submitted pursuant to 
+PMLA Section 12. Unauthorized disclosure is prohibited and may result in 
+civil and criminal penalties.
+
+═══════════════════════════════════════════════════════════════
+END OF SUSPICIOUS ACTIVITY REPORT
+═══════════════════════════════════════════════════════════════
+
+Audit Trail Reference: [AUDIT_TRAIL_ID]
+System Generated: [TIMESTAMP]
+Document Hash: [DOCUMENT_HASH]

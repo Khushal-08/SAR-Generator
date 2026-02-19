@@ -1,0 +1,263 @@
+PREVENTION OF MONEY LAUNDERING ACT (PMLA) - KEY PROVISIONS
+═══════════════════════════════════════════════════════════════════════
+
+This document provides essential PMLA provisions and RBI guidelines relevant
+to Suspicious Activity Report (SAR) generation.
+
+───────────────────────────────────────────────────────────────────────────
+PMLA SECTION 12: OBLIGATION TO FURNISH INFORMATION
+───────────────────────────────────────────────────────────────────────────
+
+REQUIREMENT:
+Every banking company, financial institution, and intermediary SHALL furnish
+information of transactions, whether attempted or executed, to the Director,
+Financial Intelligence Unit-India (FIU-IND).
+
+TIMELINE:
+• Suspicious Transaction Report (STR): Within 7 days of forming suspicion
+• Cash Transaction Report (CTR): Within 15 days of transaction month end
+
+PENALTY FOR NON-COMPLIANCE:
+• Fine up to ₹1 lakh per day of default
+• Criminal liability for willful non-compliance
+• Regulatory action by RBI/SEBI/IRDAI
+
+KEY PROVISIONS:
+✓ Obligation applies regardless of transaction amount for suspicious activity
+✓ Includes attempted transactions, not just completed ones
+✓ Protected disclosure - no civil/criminal liability for good faith reporting
+✓ Tipping off prohibited - cannot inform customer about SAR filing
+
+───────────────────────────────────────────────────────────────────────────
+PMLA SECTION 13: OBLIGATION TO VERIFY IDENTITY
+───────────────────────────────────────────────────────────────────────────
+
+REQUIREMENT:
+Banking companies and financial institutions SHALL maintain records and 
+verify identity of clients under Know Your Customer (KYC) norms.
+
+KEY PROVISIONS:
+✓ Identity verification at account opening
+✓ Periodic updating of KYC information
+✓ Enhanced Due Diligence (EDD) for high-risk customers
+✓ Politically Exposed Persons (PEPs) require senior management approval
+
+RECORDS TO BE MAINTAINED:
+• Identity proof (Aadhaar, PAN, Passport, etc.)
+• Address verification documents
+• Photographs
+• Account opening forms with signature
+• Beneficial ownership information (for entities)
+
+RETENTION PERIOD:
+Minimum 5 years after business relationship ends or transaction completion
+
+───────────────────────────────────────────────────────────────────────────
+PMLA RULE 3: CASH TRANSACTION REPORT (CTR)
+───────────────────────────────────────────────────────────────────────────
+
+THRESHOLD:
+• Cash transactions of ₹10 lakhs or more (single transaction)
+• Series of cash transactions integrally connected totaling ₹10 lakhs or more
+• Applies per account per month
+
+REPORTING:
+Must be reported within 15 days of month end to FIU-IND
+
+STRUCTURING TO AVOID:
+Multiple transactions designed to stay below threshold are themselves
+suspicious and must be reported as STR under Section 12
+
+───────────────────────────────────────────────────────────────────────────
+RBI MASTER DIRECTION ON KYC - KEY HIGHLIGHTS
+───────────────────────────────────────────────────────────────────────────
+
+RISK-BASED APPROACH:
+Banks must categorize customers into risk categories:
+• Low Risk: Salaried employees, government departments
+• Medium Risk: Regular customers with standard profiles
+• High Risk: PEPs, non-resident customers, trust/NGO accounts
+
+CUSTOMER DUE DILIGENCE (CDD):
+SIMPLIFIED DUE DILIGENCE (for low-risk):
+• Basic identity and address verification
+• Normal monitoring frequency
+
+ENHANCED DUE DILIGENCE (for high-risk):
+• Senior management approval required
+• Source of funds and wealth verification
+• Purpose and nature of business relationship
+• Ongoing monitoring with increased frequency
+• Country risk assessment for cross-border transactions
+
+POLITICALLY EXPOSED PERSONS (PEP):
+DEFINITION:
+• Individuals entrusted with prominent public functions
+• Includes heads of state, senior politicians, judicial/military officers
+• Extends to immediate family members and close associates
+
+SPECIAL REQUIREMENTS:
+✓ Obtain senior management approval before establishing relationship
+✓ Take reasonable measures to establish source of wealth and funds
+✓ Conduct enhanced ongoing monitoring
+
+───────────────────────────────────────────────────────────────────────────
+SUSPICIOUS TRANSACTION REPORTING - RBI GUIDELINES
+───────────────────────────────────────────────────────────────────────────
+
+WHAT MAKES A TRANSACTION SUSPICIOUS:
+A transaction is suspicious if it:
+1. Gives rise to reasonable grounds to believe it may involve proceeds of crime
+2. Appears to be made in circumstances of unusual or unjustified complexity
+3. Appears to have no economic rationale or bona fide purpose
+4. Is inconsistent with the customer's known profile or business
+5. Involves jurisdictions known for high money laundering risk
+
+RED FLAGS FOR SUSPICION:
+Transaction Patterns:
+⚠ Structuring to avoid reporting thresholds
+⚠ Rapid movement of funds (in and immediate out)
+⚠ Transactions just below significant threshold amounts
+⚠ Uncharacteristic transactions for customer profile
+
+Customer Behavior:
+⚠ Reluctance to provide information or documentation
+⚠ Multiple accounts with no apparent purpose
+⚠ Frequent changes in payee information
+⚠ Transactions involving uncooperative customers
+
+Cross-Border Transactions:
+⚠ Transfers to/from high-risk jurisdictions
+⚠ No apparent business reason for foreign transactions
+⚠ Circular movement of funds across borders
+⚠ Trade transactions with inflated/deflated values
+
+───────────────────────────────────────────────────────────────────────────
+FATF RECOMMENDATIONS (APPLICABLE TO INDIA)
+───────────────────────────────────────────────────────────────────────────
+
+India is a member of FATF (Financial Action Task Force) and implements
+its 40 Recommendations on anti-money laundering:
+
+KEY RECOMMENDATIONS FOR SAR CONTEXT:
+
+RECOMMENDATION 10 - CUSTOMER DUE DILIGENCE:
+• Identify customer and verify identity using reliable documents
+• Identify beneficial owner and verify identity
+• Understand purpose and nature of business relationship
+• Conduct ongoing due diligence
+
+RECOMMENDATION 11 - RECORD KEEPING:
+• Maintain records for at least 5 years
+• Sufficient to permit reconstruction of transactions
+• Available to competent authorities upon request
+
+RECOMMENDATION 12 - POLITICALLY EXPOSED PERSONS:
+• Risk management systems to determine if customer is PEP
+• Senior management approval for relationships with PEPs
+• Enhanced due diligence measures
+
+RECOMMENDATION 15 - NEW TECHNOLOGIES:
+• Identify and assess ML/TF risks of new products and technologies
+• Applies to virtual assets and virtual asset service providers
+
+RECOMMENDATION 16 - WIRE TRANSFERS:
+• Obtain and maintain required originator and beneficiary information
+• Cross-border transfers require full information
+
+RECOMMENDATION 20 - REPORTING OF SUSPICIOUS TRANSACTIONS:
+• Report suspicious transactions promptly to FIU
+• Protected disclosure - no liability for good faith reporting
+• Prohibition on tipping off
+
+RECOMMENDATION 22 - CASINO SECTOR:
+• Apply CDD measures to casino customers
+• Monitor and report suspicious transactions
+
+───────────────────────────────────────────────────────────────────────────
+SAR NARRATIVE BEST PRACTICES
+───────────────────────────────────────────────────────────────────────────
+
+STRUCTURE:
+Paragraph 1 - WHAT HAPPENED:
+• Factual description of transactions
+• Amounts, dates, parties involved
+• Sequence of events
+
+Paragraph 2 - WHY IT IS SUSPICIOUS:
+• Comparison to customer profile
+• Identification of red flags
+• Inconsistencies with stated purpose
+
+Paragraph 3 - REGULATORY ANALYSIS:
+• Money laundering typology identification
+• Citation of relevant PMLA sections and FATF recommendations
+• Assessment of potential criminal proceeds
+
+LANGUAGE REQUIREMENTS:
+✓ Objective and factual (avoid speculation)
+✓ Clear and concise (avoid jargon unless necessary)
+✓ Properly cite regulations (PMLA Section X, FATF Rec Y)
+✓ Use regulatory terminology correctly
+✓ Avoid accusatory language (use "indicates" not "proves")
+
+CRITICAL ELEMENTS TO INCLUDE:
+1. Transaction timeline with specific dates
+2. Amounts in numerical form with currency
+3. Customer profile summary
+4. Identified red flags with explanations
+5. Typology match with supporting rationale
+6. Regulatory citations
+7. Recommendation for SAR filing
+
+───────────────────────────────────────────────────────────────────────────
+PROTECTED DISCLOSURE & TIPPING OFF
+───────────────────────────────────────────────────────────────────────────
+
+LEGAL PROTECTION (PMLA Section 12(1B)):
+A report made in good faith under Section 12 shall not constitute a breach of:
+• Banking confidentiality obligations
+• Any duty of secrecy
+• Any contractual obligation
+No civil or criminal liability for good faith disclosure
+
+TIPPING OFF PROHIBITION (PMLA Section 12(2)):
+It is PROHIBITED to:
+• Inform the customer that an STR has been filed
+• Disclose any information that might prejudice an investigation
+• Tip off the subject of suspicion in any manner
+
+PENALTY FOR TIPPING OFF:
+• Imprisonment up to 7 years
+• Fine up to ₹5 lakhs
+• Both imprisonment and fine
+
+───────────────────────────────────────────────────────────────────────────
+RECORD RETENTION REQUIREMENTS
+───────────────────────────────────────────────────────────────────────────
+
+MINIMUM RETENTION: 5 years from cessation of relationship
+
+RECORDS TO MAINTAIN:
+• All transaction records (statements, receipts, invoices)
+• KYC documentation (identity, address, photograph)
+• Account opening forms and correspondence
+• Risk categorization and review records
+• Enhanced due diligence documentation
+• SAR filing records and supporting documents
+
+FORMAT:
+• Original documents or certified copies
+• Electronic records acceptable if retrievable and auditable
+• Must permit reconstruction of transaction trail
+
+═══════════════════════════════════════════════════════════════════════════
+END OF PMLA GUIDELINES REFERENCE
+═══════════════════════════════════════════════════════════════════════════
+
+NOTE: This is a reference guide for SAR narrative generation. Always consult
+current PMLA Act, Rules, RBI Master Directions, and FATF Recommendations for
+complete and updated regulatory requirements.
+
+Last Updated: February 2026
+For Official Guidance: www.fiu-india.gov.in | www.rbi.org.in
